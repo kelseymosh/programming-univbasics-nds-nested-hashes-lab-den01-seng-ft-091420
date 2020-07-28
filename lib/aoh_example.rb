@@ -49,7 +49,7 @@ def aoh_update(aoh, row, key, new_value)
     { :name=>"Kate Gompert", :occupation=>"None" },
     { :name=>"Bruce Green", :occupation=>"Fan of Mildred" }
   ]
-  result[1][:name] = "Joelle van Dyne"
+  array[1][:name] = "Joelle van Dyne"
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
 end
